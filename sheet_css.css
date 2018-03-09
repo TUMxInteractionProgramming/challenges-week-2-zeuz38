@@ -1,0 +1,104 @@
+/*GLOBAL*/
+
+* {  margin: 0px; 0px; 0px; 0px;
+            padding: 0px; 0px; 0px; 0px;
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+    
+        button, span{
+         
+            text-transform: uppercase;
+          
+        }
+/*App bar*/
+
+    h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;text-transform: uppercase;
+        }
+
+/*Channels list*/
+
+ h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+     /* #2 #font capital #letters */
+    
+}
+        
+        ul{
+            background-color: white;
+            list-style-type: none;
+        }
+
+/*Messages*/
+.message{
+    background-color: white;
+    padding: inherit; 
+     font-size: larger;
+            font-style: normal;
+}
+.container{
+      margin-bottom: 8px;
+    width: 80%;padding: 16px; 
+}
+
+
+.h3{
+    color: black;
+    font-size: medium;
+text-transform: uppercase;}
+
+.button{
+    color: black;
+background-color:#CDDC39;
+}
+
+.left-allign{
+ 
+    padding-left: 17%;
+}
+
+/*Tab bar is an id*/ 
+.tabs{
+      font-size: 13px;
+    height: 72px;
+    border-style: none;
+    width: 33%;
+ padding: 0px auto 4px auto;
+    margin: auto;
+}
+
+
+
+
+.selected{
+    border-bottom: 4px solid red;
+    background-color: white;
+}
+   
+
+.selected:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* channel */
+.hr{
+    border: 1px dashed white;
+    background-color: black
+}
+
+.selected1{
+    border-bottom: none;
+}
+.selected1:hover {
+   border-left: 4px solid red;
+    color: black;
+}
